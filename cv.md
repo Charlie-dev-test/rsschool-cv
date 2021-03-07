@@ -5,9 +5,37 @@
 - Telegram: [*@BoykoPavel86.*](https://t.me/BoykoPavel86)
 - Github: [*https://github.com/Charlie-dev-test.*](https://github.com/Charlie-dev-test)
 ## Summary
-3. Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
-4. Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-5. Примеры кода *
-6. Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.**
-7. Образование (включая курсы, семинары, лекции, онлайн-обучение)
-8. Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+I am junior-fullstack developer.
+I would like to improve my frontend skills.
+## Skills
+- HTML
+- CSS
+- SASS
+- JQuery
+- VUE.js
+- GULP
+- PHP
+## Code Example
+```vue
+methods: {
+            zoomOn(el) {
+                let zoom = el.parentElement.children;
+                zoom.forEach(function(child) {
+                    child.classList.add('scale')
+                })
+            },
+            zoomOf(el) {
+                let zoom = el.parentElement.children;
+                zoom.forEach(function(child) {
+                    child.classList.remove('scale')
+                });
+            }
+        }
+```
+## Work experience
+- fullstack developer - one year
+
+## Education
+Peter the Great St.Petersburg Polytechnic University (SPbPU) - web developer courses.
+## English skills
+Pre-Intermediate
