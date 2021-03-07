@@ -1,9 +1,9 @@
 # Pavel Boyko
 ## Contacts
-- ** Location:** Russia, Saint-Petersburg.
-- ** Email:** [*mailbox.boyko@gmail.com.*](mailto:mailbox.boyko@gmail.com)
-- ** Telegram:** [*@BoykoPavel86.*](https://t.me/BoykoPavel86)
-- ** Github:** [*https://github.com/Charlie-dev-test.*](https://github.com/Charlie-dev-test)
+- Location: Russia, Saint-Petersburg.
+- Email: [*mailbox.boyko@gmail.com.*](mailto:mailbox.boyko@gmail.com)
+- Telegram: [*@BoykoPavel86.*](https://t.me/BoykoPavel86)
+- Github: [*https://github.com/Charlie-dev-test.*](https://github.com/Charlie-dev-test)
 ## Summary
 3. Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
 4. Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
