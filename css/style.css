@@ -46,9 +46,38 @@ section{
     flex-basis: auto;
     width: 100%;
     background-color: #fffaf0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.content{
-    /*height: 300px;*/
+.row{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-50{
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.skills-list{
+    padding-left: 15px;
+
+}
+.text-center{
+    text-align: center;
+}
+figure{
+    background-color: #D5D5D5;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+figure pre{
+    font-family: monospace;
+    display: block;
 }
 footer{
     flex-grow: 0;
@@ -56,6 +85,8 @@ footer{
     flex-basis: auto;
     background: #E3F2FD;
     padding: 10px 30px 10px 30px;
+    margin-bottom: 50px;
+    border-radius: 0 0 10px 10px;
 }
 .footer{
     display: flex;
