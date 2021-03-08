@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML CV</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="desc">
+                <h1>Pavel Boyko</h1>
+                <ul>
+                    <li>Location: Russia, Saint-Petersburg.</li>
+                    <li>Email: <a href="mailto:mailbox.boyko@gmail.com">mailbox.boyko@gmail.com.</a></li>
+                    <li>Telegram: <a href="https://t.me/BoykoPavel86" target="_blank">@BoykoPavel86.</a></li>
+                    <li>Github: <a href="https://github.com/Charlie-dev-test" target="_blank">https://github.com/Charlie-dev-test.</a></li>
+                </ul>
+            </div>
+            <img src="img/portfolio2.jpg" alt="">
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-50">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>JQuery</li>
+                        <li>VUE.js</li>
+                        <li>GULP</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h2>Summary</h2>
+                    <p>I am junior-fullstack developer. I would like to improve my frontend skills.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <h2 class="text-center">Code example</h2>
+                    <figure>
+                        <pre>
+methods: {
+              zoomOn(el) {
+                  let zoom = el.parentElement.children;
+                  zoom.forEach(function(child) {
+                      child.classList.add('scale')
+                  })
+              },
+              zoomOf(el) {
+                  let zoom = el.parentElement.children;
+                  zoom.forEach(function(child) {
+                      child.classList.remove('scale')
+                  });
+              }
+          }
+                        </pre>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <h2>Education</h2>
+                    <p>Peter the Great St.Petersburg Polytechnic University (SPbPU) - web developer courses.</p>
+                    <h3>English skills</h3>
+                    <p>Pre-Intermediate</p>
+                </div>
+                <div class="col-50">
+                    <h2>Work experience</h2>
+                    <p>Junior fullstack developer - one year</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav class="footer">
+                <a class="footer-rss" href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt=""></a>
+                <p>© Saint-Petersburg. 2021</p>
+                <a class="footer-git" href="https://github.com/Charlie-dev-test">My GitHub</a>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>
