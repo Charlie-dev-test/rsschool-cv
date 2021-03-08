@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    background: green;
+}
+main{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+footer{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    background: darkolivegreen;
+}
